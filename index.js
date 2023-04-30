@@ -13,7 +13,7 @@ mongoose
     useUnifiedTopology: true,
   })
   .then(() => {
-    console.log("DB Connected");
+    console.log("DB Connected Successful");
     new Date().toLocaleString();
   });
 
