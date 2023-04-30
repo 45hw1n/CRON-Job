@@ -13,8 +13,8 @@ mongoose
     useUnifiedTopology: true,
   })
   .then(() => {
-    console.log("DB Connected Successful");
-    new Date().toLocaleString();
+    console.log("DB Connected Successfully");
+    console.log('Connection time :', new Date().toLocaleString())
   });
 
 // cron.schedule("*/1 * * * *", () => {
