@@ -14,6 +14,7 @@ mongoose
   })
   .then(() => {
     console.log("DB Connected");
+    new Date().toLocaleString();
   });
 
 // cron.schedule("*/1 * * * *", () => {
