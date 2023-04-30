@@ -20,9 +20,9 @@ mongoose
 //   APIs.publishBlog();
 // });
 
-cron.schedule("* * * * * *", () => {
-  console.log('CRON running')
-});
+// cron.schedule("* * * * * *", () => {
+//   console.log('CRON running')
+// });
 
 app.listen(process.env.PORT, () => {
   console.log(`App is running on port ${process.env.PORT}`);
